@@ -30,6 +30,12 @@ exemple :
 
 ## Mise en ligne
 
-Stop le proceesus de ng serve en tapant le terminal control C
-Dans terminal au même endroit que le ng-serve.
-Vérifier le résultat avec le lien (peut prendre plusieurs minutes) : https://mystifying-cray-25a8ea.netlify.app/
+->Stop le proceesus de ng serve en tapant le terminal control C
+    Dans terminal au même endroit que le ng-serve.
+->Vérifié que tous les fichiers modifiés sont enregistrés. Pas de notion de unsaved en haut à gauche du logiciel. Les fichiers modifiés ont la mention M à droite. Pour les enregistrer "control S".
+->lancer la commande : git status. Les fichiers modifiés doivent être affiché en rouge.
+->lancer la commande : git add --all. Enregistre les fichiers modifiés
+->lancer la commande : git status. Les fichiers modifiés doivent être affiché en vert. Enregistrement bien effectué
+->lancer la commande: git commit -m "message explicite" (ex: passage au menu hiver)
+->lancer la commande : git push
+->Vérifier le résultat avec le lien (peut prendre plusieurs minutes) : https://mystifying-cray-25a8ea.netlify.app/
